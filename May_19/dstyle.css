@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    
+  }
+  .flex-item {
+    border: 2px solid blue;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: end;
+    width: 200px;
+  }
+  .flex-item1 {
+    display: flex;
+    width: 200px;
+    justify-content: end;
+    border: 2px solid blue;
+    padding: 10px;
+    align-items:last baseline;
+    border: 3px dashed black;
+  }
+  

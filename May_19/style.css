@@ -1,0 +1,29 @@
+.nav-bar{
+    background-color: blue;
+    margin: 0%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sign-up{
+    
+    display: flex;
+    align-items: right;
+    justify-content: center;
+
+}
+
+.nav-list{
+    display: flex;
+    list-style: none ;
+    align-items: baseline;
+}
+
+.button{
+    background-color: aqua ;
+    border: black 5px solid;
+
+}

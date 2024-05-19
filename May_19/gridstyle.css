@@ -1,0 +1,33 @@
+
+    .container {
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto 1fr auto auto;
+      grid-template-areas:
+        "header header header header"
+        "sidebar content content content"
+        "footer footer footer footer";
+        
+      gap: 10px;
+      height: 100vh;
+    }
+
+    .header {
+      grid-area: header;
+      background: #f8b400;
+    }
+
+    .sidebar {
+      grid-area: sidebar;
+      background: #4caf50;
+    }
+
+    .content {
+      grid-area: content;
+      background: #2196f3;
+    }
+
+    .footer {
+      grid-area: footer;
+      background: #ff5722;
+    }
